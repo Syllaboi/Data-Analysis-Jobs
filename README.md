@@ -14,7 +14,7 @@
 ![5](https://github.com/user-attachments/assets/f3693dd4-f3ef-4803-8563-ca17bff62df6)
 
     
-  <li><a href="https://github.com/Syllaboi/Data-Analysis-Project-Documentation/tree/Sales-data-Dashboard">Amazon Product Review Analysis - Capstone project</a></li> 
+  <li><a href="https://github.com/Syllaboi/Data-Analysis-Projects/blob/Amazon-Product-Review-Analysis---Capstone-Project/README.md">Amazon Product Review Analysis - Capstone project</a></li> 
   
   
 
@@ -24,7 +24,7 @@
 
   <h3>Skills</h3>
   <ul>
-    <li>Microsoft PoweerBi</li>
+    <li>Microsoft PowerBi</li>
     <li>Sql</li>
     <li>Excel Worksheet</li>
   </ul>
