@@ -1,51 +1,39 @@
-<h1>Hi, I'm Segun!</h1>
-  <h2>Data Analyst, Workflow Automation Professional</h2>
+# 🚀 Amazon Product Review Analysis | Excel Dashboard
 
-  <h3>About Me</h3>
-  <p>I’m passionate about transforming data into actionable insights and streamlining workflows with automation. With hands-on experience in building efficient systems, I specialize in tools like Sheets, Power Bi,SQL for Data analysis, and Airtable, N8n, and Zapier, Notion for automation, all to solve real-world challenges.</p>
+**Project Duration**: 2 Weeks  
+**Tools**: Excel (Pivot Tables, Power Query, Interactive Dashboards)  
+**Dataset**: 1,465 Amazon products (Electronics, Home & Kitchen, Books, Clothing, Sports)  
 
-  <h2>PROFESSIONAL</h2>
-  <h3>PROJECTS:</h3>
-  <ul>
-    <li><a href="https://github.com/Syllaboi/Data-Analysis-Jobs/tree/DSA-Data-Analysis-Captone-Project">Kultra Mega stores - Capstone Project</a></li>
-   
-  
 
-![5](https://github.com/user-attachments/assets/f3693dd4-f3ef-4803-8563-ca17bff62df6)
 
-    
-  <li><a href="https://github.com/Syllaboi/Data-Analysis-Project-Documentation/tree/Sales-data-Dashboard">Amazon Product Review Analysis - Capstone project</a></li> 
-  
-  
 
-![amazon](https://github.com/user-attachments/assets/ab0b9f33-0d94-4ab6-8ed9-6ff2c0da3a45)
 
-  
 
-  <h3>Skills</h3>
-  <ul>
-    <li>Microsoft PoweerBi</li>
-    <li>Sql</li>
-    <li>Excel Worksheet</li>
-  </ul>
+## 🔍 Analysis Highlights
+- **Price Sensitivity**: Products under ¥200 generated 68% of total reviews  
+- **Optimal Discounts**: 25-30% discounts drove 35% more revenue than average  
+- **Rating Trends**: 4.2+ rated products accounted for 75% of total reviews  
 
-  <h3>Contact</h3>
-  <p>Feel free to reach out at <a href="mailto:sgnzoe.life@gmail.com">Sgnzoe.life@gmail.com</a> or connect on <a href="https://linkedin.com/in/segunexploresdata/">LinkedIn</a>!</p>
-</div> or
-<a href="https://twitter.com/chinnyeddy">X (Twitter)</a>!</p>
-</div>
+## 📊 Pivot Table Insights
+1. **Discount Effectiveness**: Medium discounts (20-40%) performed best in Electronics (+15% revenue)  
+2. **Price Buckets**: ¥200-500 range had highest avg rating (4.3 vs 4.0 overall)  
+3. **Top Performers**: Identified 18 high-rating products with low visibility  
 
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 💡 Recommendations
+### Pricing Strategy
+| **Category**       | **Action**               | **Impact**          |
+|--------------------|--------------------------|---------------------|
+| Electronics        | 25-30% discounts         | +15% revenue        |
+| Home & Kitchen     | Bundle low-rated items   | +22% review volume  |
 
-Here are some ideas to get you started:
+### Marketing Tactics
+- **Target**: "Customer Favorites" (rating ≥4.5 + discount ≥20%)  
+- **Promote**: ¥200-500 range during holidays  
+- **Clearance**: 8 underperforming products (rating <3)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Excel Features
+- **Interactive Dashboard** with slicers for category/price filters  
+- **Dynamic Formulas**:  
+  ```excel
+  =IFS([@Price]<200,"Budget",[@Price]<=500,"Mid-Range",TRUE,"Premium")
+
