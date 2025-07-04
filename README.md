@@ -16,7 +16,7 @@
     <p style="margin: 10px 0;">The goal of this project was to analyze order data from Kultra Mega Stores (KMS) to provide insights into sales performance, customer behavior, and shipping efficiency. By addressing specific questions from the case study, I aimed to help KMS optimize its operations and improve profitability. The analysis was conducted using SQL queries on a dataset containing order details from 2009 to 2012.</p>
 
   <h3 style="color: #34495e; margin-top: 15px;">Dataset Description</h3>
-    <p style="margin: 10px 0;">The dataset, stored in the <code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">job-tracker-462912.Capstone.capstone_corrected</code> table, consists of 8,400 rows and 21 columns, including:</p>
+    <p style="margin: 10px 0;">The dataset, stored in the <code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">KMS SQL Case Study</code>, renamed as <code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">job-tracker-462912.Capstone.capstone_corrected</code> table, consists of 8,400 rows and 21 columns, including:</p>
     <ul style="list-style-type: square; margin-left: 20px;">
         <li style="margin: 5px 0;"><code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">Row_ID</code></li>
         <li style="margin: 5px 0;"><code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">Order_ID</code></li>
