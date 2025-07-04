@@ -40,7 +40,12 @@
         <li style="margin: 5px 0;"><code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">Product_Base_Margin</code></li>
         <li style="margin: 5px 0;"><code style="background-color: #ecf0f1; padding: 2px 5px; border-radius: 3px;">Ship_Date</code></li>
     </ul>
-    <p style="margin: 10px 0;">This dataset provides a comprehensive view of KMS's sales, customer segments, and shipping methods over a four-year period.</p>
+
+
+  ![DATASHEET](https://github.com/user-attachments/assets/3bbaaf27-22d5-4bb9-92f6-73e163fe5cf1)
+
+    
+  <p style="margin: 10px 0;">This dataset provides a comprehensive view of KMS's sales, customer segments, and shipping methods over a four-year period.</p>
 
    <h3 style="color: #34495e; margin-top: 15px;">Key Findings</h3>
     <ul style="list-style-type: square; margin-left: 20px;">
@@ -62,6 +67,10 @@ ORDER BY Total_Sales DESC
 LIMIT 1;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: The <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Technology</span> category had the highest sales, driven by high-value items like copiers and telephones.</p>
 
+
+![Question 1](https://github.com/user-attachments/assets/0f7c703d-3d8e-4fe4-8e78-15d24be61f29)
+
+
    <h3 style="color: #34495e; margin-top: 15px;">Question 2: What are the Top 3 and Bottom 3 regions in terms of sales?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT Region, SUM(Sales) AS Total_Sales
 FROM `job-tracker-462912.Capstone.capstone_corrected`
@@ -75,12 +84,22 @@ ORDER BY Total_Sales DESC;</code></pre>
         </ul>
     </p>
 
+
+![question 2](https://github.com/user-attachments/assets/761b142b-54ab-41ee-8bb8-a8314050b8cf)
+
+
+
    <h3 style="color: #34495e; margin-top: 15px;">Question 3: What were the total sales of appliances in Ontario?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT SUM(Sales) AS Total_Appliance_Sales
 FROM `job-tracker-462912.Capstone.capstone_corrected`
 WHERE Product_Sub_Category = 'Appliances' AND Province = 'Ontario'
 AND Sales IS NOT NULL;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: There were no appliance sales in Ontario, as the dataset does not include Ontario records.</p>
+
+
+![question 3](https://github.com/user-attachments/assets/662db15f-f5c9-4975-a487-79bf8e72ecd5)
+
+
 
   <h3 style="color: #34495e; margin-top: 15px;">Question 4: Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers.</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT Customer_Name, SUM(Sales) AS Total_Sales
@@ -91,6 +110,11 @@ ORDER BY Total_Sales ASC
 LIMIT 10;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: The bottom 10 customers (e.g., Aaron Bergman, Cyma Kinney) have low sales. KMS should implement targeted promotions, cross-selling, and personalized marketing to increase their spending.</p>
 
+
+![4](https://github.com/user-attachments/assets/aa93f956-a1c7-403b-aca4-384731372a00)
+
+
+
    <h3 style="color: #34495e; margin-top: 15px;">Question 5: KMS incurred the most shipping cost using which shipping method?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT Ship_Mode, SUM(Shipping_Cost) AS Total_Shipping_Cost
 FROM `job-tracker-462912.Capstone.capstone_corrected`
@@ -99,6 +123,11 @@ GROUP BY Ship_Mode
 ORDER BY Total_Shipping_Cost DESC
 LIMIT 1;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Delivery Truck</span> incurred the highest shipping costs, likely due to its frequent use for heavy or bulky items.</p>
+
+
+![5](https://github.com/user-attachments/assets/ac9b0bd1-1a34-46d9-a00d-f3a634babc59)
+
+
 
   <h3 style="color: #34495e; margin-top: 15px;">Question 6: Who are the most valuable customers, and what products or services do they typically purchase?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>WITH ValuableCustomers AS (
@@ -130,6 +159,11 @@ GROUP BY
 ORDER BY vc.Total_Sales DESC, Purchase_Count DESC;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: The most valuable customers (e.g., Raymond Book, Christine Abelman) typically purchase high-value items from <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Technology</span> and <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Furniture</span> categories.</p>
 
+
+![6](https://github.com/user-attachments/assets/078af889-7211-4cc8-b1bd-06ce9138a196)
+
+
+
    <h3 style="color: #34495e; margin-top: 15px;">Question 7: Which small business customer had the highest sales?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT Customer_Name, SUM(Sales) AS Total_Sales
 FROM `job-tracker-462912.Capstone.capstone_corrected`
@@ -138,6 +172,10 @@ GROUP BY Customer_Name
 ORDER BY Total_Sales DESC
 LIMIT 1;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Carlos Soltero</span> had the highest sales among small business customers, driven by purchases like the Sharp Copier.</p>
+
+
+![7](https://github.com/user-attachments/assets/bec317a4-bf27-4cdc-96db-03fba03ae58a)
+
 
    <h3 style="color: #34495e; margin-top: 15px;">Question 8: Which Corporate Customer placed the most number of orders in 2009 - 2012?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT Customer_Name, COUNT(DISTINCT Order_ID) AS Order_Count
@@ -149,6 +187,12 @@ ORDER BY Order_Count DESC
 LIMIT 1;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Grant Carroll</span> placed the most orders (15) among corporate customers during 2009-2012.</p>
 
+
+
+![8](https://github.com/user-attachments/assets/96606876-a97e-475e-8ea1-a069ae6b2d57)
+
+
+
    <h3 style="color: #34495e; margin-top: 15px;">Question 9: Which consumer customer was the most profitable one?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT Customer_Name, SUM(Profit) AS Total_Profit
 FROM `job-tracker-462912.Capstone.capstone_corrected`
@@ -157,6 +201,11 @@ GROUP BY Customer_Name
 ORDER BY Total_Profit DESC
 LIMIT 1;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Sally Hughsby</span> was the most profitable consumer customer, with a total profit of <b style="font-weight: bold;">$19,000</b>.</p>
+
+
+![9](https://github.com/user-attachments/assets/27d0b06a-4b51-41cd-9424-2262eff96327)
+
+
 
    <h3 style="color: #34495e; margin-top: 15px;">Question 10: Which customer returned items, and what segment do they belong to?</h3>
     <pre style="background-color: #ecf0f1; padding: 10px; border-radius: 5px; overflow-x: auto;"><code>SELECT DISTINCT Customer_Name, Customer_Segment
@@ -170,6 +219,16 @@ FROM `job-tracker-462912.Capstone.capstone_corrected`
 GROUP BY Order_Priority, Ship_Mode
 ORDER BY Order_Priority, Frequency DESC;</code></pre>
     <p style="margin: 10px 0;"><b style="font-weight: bold;">Insight</b>: KMS did not appropriately spend shipping costs, as critical and high-priority orders often used the slow Delivery Truck method, risking delays. Express Air should be prioritized for urgent orders to ensure timely delivery.</p>
+
+
+![11,1](https://github.com/user-attachments/assets/0639b0ea-52ce-4e91-bcff-bd4e592fd33f)
+
+
+
+![11,2](https://github.com/user-attachments/assets/b5b8e81f-231b-41b7-b12f-d322b4f5648a)
+
+
+
 
    <h2 style="color: #2980b9; margin-top: 20px;">Conclusion</h2>
     <p style="margin: 10px 0;">This project showcases my ability to work with large datasets, perform complex SQL queries, and derive actionable business insights. I cleaned and transformed the data, wrote queries to answer specific questions, and provided recommendations based on the findings. The project highlights my skills in data analysis, SQL, and business intelligence.</p>
