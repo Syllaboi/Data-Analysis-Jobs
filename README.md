@@ -6,6 +6,7 @@
 
 
 
+![amazon](https://github.com/user-attachments/assets/daaf8439-312c-404a-bb8e-3b2233223004)
 
 
 
@@ -14,10 +15,20 @@
 - **Optimal Discounts**: 25-30% discounts drove 35% more revenue than average  
 - **Rating Trends**: 4.2+ rated products accounted for 75% of total reviews  
 
+
+![sheeet](https://github.com/user-attachments/assets/c72fd5e6-34a0-4545-8e5b-50cabb161d48)
+
+
+
 ## 📊 Pivot Table Insights
 1. **Discount Effectiveness**: Medium discounts (20-40%) performed best in Electronics (+15% revenue)  
 2. **Price Buckets**: ¥200-500 range had highest avg rating (4.3 vs 4.0 overall)  
 3. **Top Performers**: Identified 18 high-rating products with low visibility  
+
+
+![pivot table](https://github.com/user-attachments/assets/11a31931-a63e-42de-8a1c-b20e9a89d60f)
+
+
 
 ## 💡 Recommendations
 ### Pricing Strategy
