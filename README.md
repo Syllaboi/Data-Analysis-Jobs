@@ -10,7 +10,7 @@
 
     
   <h2 style="color: #2980b9; margin-top: 20px;">Introduction</h2>
-    <p style="margin: 10px 0;">Hi, I'm <b style="font-weight: bold;">[Your Name]</b>, a data analyst. This repository showcases my work on the <i style="font-style: italic;">DSA Data Analysis Capstone Project</i>, where I analyzed the <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Kultra Mega Stores Inventory</span> dataset to answer key business questions using SQL. The project demonstrates my ability to perform comprehensive exploratory data analysis (EDA) and derive actionable insights from large datasets.</p>
+    <p style="margin: 10px 0;">Hi, I'm <b style="font-weight: bold;">Oluwasegun Salako</b>, a data analyst. This repository showcases my work on the <i style="font-style: italic;">DSA Data Analysis Capstone Project</i>, where I analyzed the <span style="background-color: #ffeaa7; padding: 2px 5px; border-radius: 3px;">Kultra Mega Stores Inventory</span> dataset to answer key business questions using SQL. The project demonstrates my ability to perform comprehensive exploratory data analysis (EDA) and derive actionable insights from large datasets.</p>
 
   <h2 style="color: #2980b9; margin-top: 20px;">Project Overview</h2>
     <p style="margin: 10px 0;">The goal of this project was to analyze order data from Kultra Mega Stores (KMS) to provide insights into sales performance, customer behavior, and shipping efficiency. By addressing specific questions from the case study, I aimed to help KMS optimize its operations and improve profitability. The analysis was conducted using SQL queries on a dataset containing order details from 2009 to 2012.</p>
