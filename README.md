@@ -7,17 +7,18 @@
   <h2>PROFESSIONAL</h2>
   <h3>PROJECTS:</h3>
   <ul>
-    <li><a href="https://github.com/Syllaboi/Data-Analysis-Jobs/tree/DSA-Data-Analysis-Captone-Project">DSA Data Analysis Capstone Project</a></li>
+    <li><a href="https://github.com/Syllaboi/Data-Analysis-Jobs/tree/DSA-Data-Analysis-Captone-Project">Kultra Mega stores - Capstone Project</a></li>
    
   
 
 ![5](https://github.com/user-attachments/assets/f3693dd4-f3ef-4803-8563-ca17bff62df6)
 
     
-  <li><a href="https://github.com/Syllaboi/Data-Analysis-Project-Documentation/tree/Sales-data-Dashboard">eXCELL SHEET ASSIGNMENT</a></li> 
+  <li><a href="https://github.com/Syllaboi/Data-Analysis-Project-Documentation/tree/Sales-data-Dashboard">Amazon Product Review Analysis - Capstone project</a></li> 
   
-  ![content idea](https://github.com/user-attachments/assets/19438d4a-3e8a-4e63-8b83-cf1c5fe20770)
+  
 
+![amazon](https://github.com/user-attachments/assets/ab0b9f33-0d94-4ab6-8ed9-6ff2c0da3a45)
 
   
 
