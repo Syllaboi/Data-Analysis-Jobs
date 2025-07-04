@@ -6,7 +6,7 @@
 </head>
   
 <body style="font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 20px; background-color: #f9f9f9; color: #333;">
-    <h1 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;">DSA Data Analysis Capstone Project</h1>
+    <h1 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;">Kultra Mega Stores Inventory Dashboard</h1>
 
     
   <h2 style="color: #2980b9; margin-top: 20px;">Introduction</h2>
